@@ -8,6 +8,7 @@
         $scope.message = '';
         $scope.checkbutton= () =>{
             let splitterms = $scope.name.split(',');
+            //Considering empty item (, ,) example
             if(splitterms[0].trim() === ''){
                 $scope.message = "Please enter data first";
             } 
